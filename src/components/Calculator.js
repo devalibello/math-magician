@@ -10,7 +10,7 @@ const Calculator = () => (
         <button className="button" type="button">AC</button>
         <button className="button" type="button">+/-</button>
         <button className="button" type="button">%</button>
-        <button className="button operator" type="button">/</button>
+        <button className="button operator" type="button">&#247;</button>
       </div>
 
       <div className="row">
@@ -43,4 +43,10 @@ const Calculator = () => (
   </div>
 );
 
-export default Calculator;
+const CalculatorRender = () => (
+  <div>
+    <Calculator />
+  </div>
+);
+
+export default CalculatorRender;
