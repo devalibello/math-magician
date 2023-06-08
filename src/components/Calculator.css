@@ -1,0 +1,37 @@
+.calculator {
+  /* border: solid 2px red; */
+  margin: 20px 80px;
+  height: auto;
+}
+
+.button {
+  width: 25%;
+  padding: 20px;
+  border: 1px solid rgb(223, 219, 219);
+}
+
+.input {
+  padding: 20px;
+  width: 100%;
+  text-align: right;
+  font-size: 1.5rem;
+  background-color: rgb(137, 148, 151);
+  color: white;
+  border: 1px solid rgb(223, 219, 219);
+}
+
+.dot {
+  margin-left: auto;
+}
+
+.row-five {
+  display: flex;
+}
+
+.button-zero {
+  flex: 1;
+}
+
+.operator {
+  background-color: orange;
+}
