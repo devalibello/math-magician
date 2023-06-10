@@ -29,6 +29,7 @@ const Calculator = () => {
 
   return (
     <div className="calculator">
+      <div className="math-magician">Math Magician</div>
       <input type="text" className="input" readOnly value={calculationValues.next || calculationValues.total || '0'} />
 
       <div className="buttons">
