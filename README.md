@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Math Magician] <a name="about-project"></a>
 
-**[Math Magician]** This is react app environment setup for the math magician project
+**[Math Magician]** This is react app that carries out basic mathematical calculations
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -86,7 +86,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](COMING SOON)
+- [Live Demo Link](https://devalibello.github.io/math-magician/public/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,6 +173,8 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Linters for react and CSS are fully installed]**
+- [ ] **[Add general styling to the website]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

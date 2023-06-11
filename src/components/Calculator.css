@@ -10,6 +10,10 @@
   border: 1px solid rgb(223, 219, 219);
 }
 
+.button:active {
+  border: 1px solid black;
+}
+
 .input {
   padding: 20px;
   width: 100%;
@@ -34,4 +38,12 @@
 
 .operator {
   background-color: orange;
+}
+
+.math-magician {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Kaushan Script', cursive, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(88, 95, 97);
 }
