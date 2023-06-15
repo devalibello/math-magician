@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import style from '../styles/Navbar.module.css';
 
 const Navbar = () => (
-  <nav className="nav-page">
+  <nav data-testid="navigation">
     <ul className={style.navContainer}>
       <li className={style.mathMagician}>Math Magicians</li>
       <li><Link to="/">Home</Link></li>

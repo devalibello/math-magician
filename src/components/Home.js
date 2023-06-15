@@ -2,7 +2,7 @@ import React from 'react';
 import style from '../styles/Home.module.css';
 
 const Home = () => (
-  <div className={style.pageContainer}>
+  <div className={style.pageContainer} data-testid="page-container">
     <h1 className={style.homePage}>Welcome to our home page!</h1>
     <p className={style.text}>
       Lorem ipsum dolor sit, amet consectetur adipisicing elit.

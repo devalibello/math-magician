@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator should render the Calculator component 1`] = `
+<input
+  class="input"
+  data-testid="calculator-input"
+  readonly=""
+  type="text"
+  value="0"
+/>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator should render the Calculator component 1`] = `
+<div
+  class="apiQuote"
+  data-testid="test-quote"
+>
+  <p>
+    Quote Loading...
+  </p>
+</div>
+`;
+
+exports[`Quote should render the Quote component 1`] = `
+<div
+  class="apiQuote"
+  data-testid="test-quote"
+>
+  <p>
+    Quote Loading...
+  </p>
+</div>
+`;
