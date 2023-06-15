@@ -32,10 +32,10 @@ const Calculator = () => {
     <div className="calculatorContainer">
       <p className={style.mathText}>Lets do some Math!!!</p>
       <div className="calculator">
-        <input type="text" className="input" readOnly value={calculationValues.next || calculationValues.total || '0'} />
+        <input type="text" className="input" readOnly value={calculationValues.next || calculationValues.total || '0'} data-testid="calculator-input" />
         <div className="buttons">
           <div className="row-one">
-            <button className="button" type="button">AC</button>
+            <button className="button" type="button" data-testid="calculator-buttons">AC</button>
             <button className="button" type="button">+/-</button>
             <button className="button" type="button">%</button>
             <button className="button operator" type="button">&#247;</button>

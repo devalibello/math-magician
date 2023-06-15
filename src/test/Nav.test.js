@@ -1,12 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router-dom';
-import Home from '../components/Home';
+import Navbar from '../components/Navbar';
 
-it('Home render correctly', () => {
+it('Navbar render correctly', () => {
   const tree = renderer.create(
     <MemoryRouter>
-      <Home />
+      <Navbar />
     </MemoryRouter>,
   ).toJSON();
   expect(tree).toMatchSnapshot();

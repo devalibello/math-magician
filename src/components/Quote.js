@@ -28,7 +28,7 @@ const Quote = () => {
   });
 
   return (
-    <div className={style.apiQuote}>
+    <div className={style.apiQuote} data-testid="test-quote">
       { loadError && <p>{loadError}</p>}
       { isLoading && <p>Quote Loading...</p>}
       { !isLoading && <p className="quote">{presentQuote}</p>}
