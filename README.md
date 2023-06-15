@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Math Magician] <a name="about-project"></a>
 
-**[Math Magician]** This is react app that carries out basic mathematical calculations
+**[Math Magician]** This is react full website that carries out basic mathematical calculations. It also has a calculate quote. The site has three pages rendered using SPA in react
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -86,7 +86,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://devalibello.github.io/math-magician/public/)
+- [Live Demo Link](COMING SOON)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
