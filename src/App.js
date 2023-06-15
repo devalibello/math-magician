@@ -1,11 +1,20 @@
 import React from 'react';
-import CalculatorRender from './components/Calculator';
-import Quote from './components/Api';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Quote from './components/Quote';
+import Calculator from './components/Calculator';
 
 const App = () => (
   <div>
-    <CalculatorRender />
-    <Quote />
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" Component={Home} />
+        <Route path="/calculator" Component={Calculator} />
+        <Route path="/quote" Component={Quote} />
+      </Routes>
+    </BrowserRouter>
   </div>
 );
 

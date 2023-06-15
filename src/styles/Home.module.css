@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.homePage {
+  font-family: 'Kaushan Script', cursive, sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.pageContainer {
+  margin: 3%;
+  margin-top: 4%;
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.95em;
+}

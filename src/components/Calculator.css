@@ -1,9 +1,3 @@
-.calculator {
-  /* border: solid 2px red; */
-  margin: 20px 80px;
-  height: auto;
-}
-
 .button {
   width: 25%;
   padding: 20px;
@@ -46,4 +40,24 @@
   font-family: 'Kaushan Script', cursive, sans-serif;
   font-size: 1.5rem;
   color: rgb(88, 95, 97);
+}
+
+.calculatorContainer {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  gap: 5%;
+}
+
+@media only screen and (max-width: 767px) {
+  .calculatorContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calculator {
+    margin-top: 4%;
+  }
 }
