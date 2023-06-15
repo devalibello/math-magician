@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navContainer {
+  font-family: 'Kaushan Script', cursive, sans-serif;
+  display: flex;
+  align-items: center;
+  margin: 3%;
+  gap: 5px;
+  color: rgb(88, 95, 97);
+}
+
+.mathMagician {
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+li a {
+  color: rgb(88, 95, 97);
+}
