@@ -3,23 +3,17 @@ import style from '../styles/Home.module.css';
 
 const Home = () => (
   <div className={style.pageContainer} data-testid="page-container">
-    <h1 className={style.homePage}>Welcome to our home page!</h1>
+    <h1 className={style.homePage}>Welcome to Math Magician - Your Ultimate Basic Calculator!</h1>
     <p className={style.text}>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-      Accusantium omnis repellat, doloribus, nemo quas ipsam sequi
-      iusto ex dicta dolorum eos nulla eligendi ut maxime ipsum distinctio
-      quia fugiat cum!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Excepturi, officia harum voluptate reprehenderit itaque earum. Ex sapiente ea eum
-      eos quod hic doloribus corporis officiis magni. Tempore assumenda dolores quaerat!
-    </p>
-    <br />
-    <p className={style.text}>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-      Accusantium omnis repellat, doloribus, nemo quas ipsam sequi
-      iusto ex dicta dolorum eos nulla eligendi ut maxime ipsum distinctio
-      quia fugiat cum!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Fuga sed architecto doloribus minus aperiam non dicta, quod modi officiis
-      ipsum, impedit ab beatae rem eius sint enim est. Adipisci, autem?
+      Discover the power of simplicity with our Math Magician web app - the perfect tool
+      for all your basic calculations! With a sleek and intuitive design, Math
+      Magician adapts effortlessly to any device, making it your everyday
+      companion, whether you&apos;re studying, working, or just need a quick answer.
+      Embrace the magic of numbers at your fingertips and experience the
+      enchantment of effortless, accurate, and fast calculations. Join our
+      growing community of math enthusiasts and let&apos;s make math magical, one
+      calculation at a time. Get started now and unleash the Math Magician in
+      you!
     </p>
   </div>
 );
