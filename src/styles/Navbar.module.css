@@ -7,7 +7,8 @@
 }
 
 .navContainer {
-  font-family: 'Kaushan Script', cursive, sans-serif;
+  font-family: sans-serif;
+  font-weight: 300;
   display: flex;
   align-items: center;
   margin: 3%;
